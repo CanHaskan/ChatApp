@@ -1,0 +1,5 @@
+
+module SocketIO.Swift {
+  header "SocketIO-Swift.h"
+  requires objc
+}

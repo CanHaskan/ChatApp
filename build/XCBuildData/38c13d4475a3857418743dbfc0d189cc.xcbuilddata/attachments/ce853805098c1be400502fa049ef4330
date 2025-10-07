@@ -1,0 +1,4 @@
+
+module SocketIO.__Swift {
+  exclude header "SocketIO-Swift.h"
+}

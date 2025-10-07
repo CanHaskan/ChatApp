@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary.swiftconstvalues",
+    "dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary.d",
+    "diagnostics" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary.dia",
+    "emit-module-dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary-emit-module.dia",
+    "pch" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON-primary.swiftdeps"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/SwiftyJSON/Source/SwiftyJSON.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/SwiftyJSON.build/Objects-normal/arm64/SwiftyJSON.o"
+  }
+}

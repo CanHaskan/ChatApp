@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+Target 'Pods-Smack' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'Socket.IO-Client-Swift' in project 'Pods'
+➜ Explicit dependency on target 'Starscream' in project 'Pods'
+➜ Explicit dependency on target 'SwiftyJSON' in project 'Pods'
+Target 'SwiftyJSON' in project 'Pods' (no dependencies)
+Target 'Socket.IO-Client-Swift' in project 'Pods'
+➜ Explicit dependency on target 'Starscream' in project 'Pods'
+Target 'Starscream' in project 'Pods'
+➜ Explicit dependency on target 'Starscream-Starscream_Privacy' in project 'Pods'
+Target 'Starscream-Starscream_Privacy' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods' (no dependencies)

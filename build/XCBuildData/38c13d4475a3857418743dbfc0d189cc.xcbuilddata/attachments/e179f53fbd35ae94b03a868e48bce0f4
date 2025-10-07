@@ -1,0 +1,111 @@
+{
+  "" : {
+    "const-values" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary.swiftconstvalues",
+    "dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary.d",
+    "diagnostics" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary.dia",
+    "emit-module-dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary-emit-module.dia",
+    "pch" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-primary.swiftdeps"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Compression/Compression.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Compression/WSCompression.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSCompression.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSCompression.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSCompression.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/DataBytes/Data+Extensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Data+Extensions.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Data+Extensions.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Data+Extensions.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Engine/Engine.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Engine.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Engine.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Engine.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Engine/NativeEngine.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/NativeEngine.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/NativeEngine.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/NativeEngine.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Engine/WSEngine.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSEngine.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSEngine.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WSEngine.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/FoundationHTTPHandler.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPHandler.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPHandler.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPHandler.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/FoundationHTTPServerHandler.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPServerHandler.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPServerHandler.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationHTTPServerHandler.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/FrameCollector.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FrameCollector.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FrameCollector.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FrameCollector.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/Framer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Framer.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Framer.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Framer.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/HTTPHandler.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/HTTPHandler.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/HTTPHandler.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/HTTPHandler.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Framer/StringHTTPHandler.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/StringHTTPHandler.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/StringHTTPHandler.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/StringHTTPHandler.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Security/FoundationSecurity.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationSecurity.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationSecurity.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationSecurity.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Security/Security.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Security.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Security.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Security.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Server/Server.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Server.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Server.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Server.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Server/WebSocketServer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocketServer.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocketServer.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocketServer.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Starscream/WebSocket.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Transport/FoundationTransport.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationTransport.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationTransport.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/FoundationTransport.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Transport/TCPTransport.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/TCPTransport.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/TCPTransport.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/TCPTransport.o"
+  },
+  "/Users/canhaskan/Desktop/yerel/Apps/Smack/Pods/Starscream/Sources/Transport/Transport.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Transport.o",
+    "llvm-bc" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Transport.bc",
+    "object" : "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Transport.o"
+  }
+}

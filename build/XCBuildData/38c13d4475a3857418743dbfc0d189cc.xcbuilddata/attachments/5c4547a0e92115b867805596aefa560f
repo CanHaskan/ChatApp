@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Release-iphoneos/Starscream/Starscream.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Release-iphoneos/Starscream/Starscream.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "Starscream-Swift.h",
+      "external-contents": "/Users/canhaskan/Desktop/yerel/Apps/Smack/build/Pods.build/Release-iphoneos/Starscream.build/unextended-interface-header.h",
+    }]
+  }]
+}
