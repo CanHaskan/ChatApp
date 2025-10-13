@@ -11,6 +11,8 @@
 		1E0D6A332E998B3300187B60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A322E998B3300187B60 /* Constants.swift */; };
 		1E0D6A372E99939D00187B60 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A362E99939D00187B60 /* LoginVC.swift */; };
 		1E0D6A392E999E5600187B60 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A382E999E5600187B60 /* CreateAccountVC.swift */; };
+		1E0D6A3E2E9C52E500187B60 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A3D2E9C52E500187B60 /* AuthService.swift */; };
+		1E0D6A402E9D87F200187B60 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A3F2E9D87F200187B60 /* RoundedButton.swift */; };
 		1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */; };
 		1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */; };
 		1E4FB6A92D820E6800C0EB13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A82D820E6800C0EB13 /* Base */; };
@@ -28,6 +30,8 @@
 		1E0D6A322E998B3300187B60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1E0D6A362E99939D00187B60 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1E0D6A382E999E5600187B60 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		1E0D6A3D2E9C52E500187B60 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		1E0D6A3F2E9D87F200187B60 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		1E4FB69E2D820E6800C0EB13 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		1E0D6A3A2E9C52C400187B60 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E0D6A3D2E9C52E500187B60 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1E4FB6952D820E6800C0EB13 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 		1E4FB6A02D820E6800C0EB13 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				1E0D6A3A2E9C52C400187B60 /* Services */,
 				1E0D6A312E998B1500187B60 /* Utilities */,
 				1E4FB6BC2D873B0100C0EB13 /* Model */,
 				1E4FB6BB2D873AFB00C0EB13 /* View */,
@@ -125,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				1E0D6A2F2E97DF1D00187B60 /* GradientView.swift */,
+				1E0D6A3F2E9D87F200187B60 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,7 +293,9 @@
 				1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */,
 				1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */,
 				1E0D6A392E999E5600187B60 /* CreateAccountVC.swift in Sources */,
+				1E0D6A402E9D87F200187B60 /* RoundedButton.swift in Sources */,
 				1E0D6A332E998B3300187B60 /* Constants.swift in Sources */,
+				1E0D6A3E2E9C52E500187B60 /* AuthService.swift in Sources */,
 				1E4FB6B92D87369400C0EB13 /* SWRevealViewController.m in Sources */,
 				1E4FB6C02D873B3E00C0EB13 /* ChannelVC.swift in Sources */,
 			);
