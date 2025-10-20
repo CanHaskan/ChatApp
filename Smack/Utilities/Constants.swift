@@ -14,10 +14,17 @@ let URL_REGISTER = "http://localhost:3005/v1/account/register"
 let URL_LOGIN = "http://localhost:3005/v1/account/login"
 let URL_USER_ADD = "http://localhost:3005/v1/user/add"
 
+//Colors
+let smackPurplePlaceholder = #colorLiteral(red: 0.2588235294, green: 0.3294117647, blue: 0.7254901961, alpha: 0.5)
+
+//Notification
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUSerDataChanged")
+
 //Segues
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 // User Defaults
 
