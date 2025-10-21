@@ -17,6 +17,8 @@
 		1E0D6A442EA2B36B00187B60 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A432EA2B36B00187B60 /* AvatarPickerVC.swift */; };
 		1E0D6A462EA2B5A300187B60 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A452EA2B5A300187B60 /* AvatarCell.swift */; };
 		1E0D6A482EA6D93900187B60 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A472EA6D93900187B60 /* CircleImage.swift */; };
+		1E0D6A4B2EA812A100187B60 /* ProfileVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */; };
+		1E0D6A4C2EA812A100187B60 /* ProfileVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */; };
 		1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */; };
 		1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */; };
 		1E4FB6A92D820E6800C0EB13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A82D820E6800C0EB13 /* Base */; };
@@ -40,6 +42,8 @@
 		1E0D6A432EA2B36B00187B60 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		1E0D6A452EA2B5A300187B60 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		1E0D6A472EA6D93900187B60 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCViewController.swift; sourceTree = "<group>"; };
+		1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVCViewController.xib; sourceTree = "<group>"; };
 		1E4FB69E2D820E6800C0EB13 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		1E0D6A4D2EA812BE00187B60 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		1E4FB6952D820E6800C0EB13 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 		1E4FB6A02D820E6800C0EB13 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				1E0D6A4D2EA812BE00187B60 /* XIBs */,
 				1E0D6A3A2E9C52C400187B60 /* Services */,
 				1E0D6A312E998B1500187B60 /* Utilities */,
 				1E4FB6BC2D873B0100C0EB13 /* Model */,
@@ -140,6 +153,7 @@
 				1E0D6A362E99939D00187B60 /* LoginVC.swift */,
 				1E0D6A382E999E5600187B60 /* CreateAccountVC.swift */,
 				1E0D6A432EA2B36B00187B60 /* AvatarPickerVC.swift */,
+				1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4FB6AB2D820E6900C0EB13 /* Assets.xcassets in Resources */,
+				1E0D6A4C2EA812A100187B60 /* ProfileVCViewController.xib in Resources */,
 				1E4FB6AE2D820E6900C0EB13 /* Base in Resources */,
 				1E4FB6A92D820E6800C0EB13 /* Base in Resources */,
 			);
@@ -300,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0D6A422EA194CE00187B60 /* UserDataService.swift in Sources */,
+				1E0D6A4B2EA812A100187B60 /* ProfileVCViewController.swift in Sources */,
 				1E0D6A302E97DF1D00187B60 /* GradientView.swift in Sources */,
 				1E0D6A462EA2B5A300187B60 /* AvatarCell.swift in Sources */,
 				1E4FB6BE2D873B2E00C0EB13 /* ChatVC.swift in Sources */,
