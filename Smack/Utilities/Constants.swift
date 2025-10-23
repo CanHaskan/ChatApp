@@ -13,6 +13,8 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 let URL_REGISTER = "http://localhost:3005/v1/account/register"
 let URL_LOGIN = "http://localhost:3005/v1/account/login"
 let URL_USER_ADD = "http://localhost:3005/v1/user/add"
+let URL_USER_BY_EMAIL = "http://localhost:3005/v1/user/byEmail"
+let URL_GET_CHANNELS = "http://localhost:3005/v1/channel"
 
 //Colors
 let smackPurplePlaceholder = #colorLiteral(red: 0.2588235294, green: 0.3294117647, blue: 0.7254901961, alpha: 0.5)
@@ -36,3 +38,11 @@ let USER_EMAIL = "userEmail"
 let HEADER = [
     "Content-Type": "application/json; charset=utf-8"
 ]
+
+var BEARER_HEADER: [String: String] {
+    return [
+        "Authorization": "Bearer \(AuthService.instance.AuthToken)",
+        "Content-Type": "application/json; charset=utf-8"
+    ]
+}
+

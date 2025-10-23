@@ -19,6 +19,11 @@
 		1E0D6A482EA6D93900187B60 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A472EA6D93900187B60 /* CircleImage.swift */; };
 		1E0D6A4B2EA812A100187B60 /* ProfileVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */; };
 		1E0D6A4C2EA812A100187B60 /* ProfileVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */; };
+		1E0D6A4F2EAAB5BE00187B60 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A4E2EAAB5BE00187B60 /* MessageService.swift */; };
+		1E0D6A512EAAB5ED00187B60 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A502EAAB5ED00187B60 /* Channel.swift */; };
+		1E0D6A532EAAC65A00187B60 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A522EAAC65A00187B60 /* ChannelCell.swift */; };
+		1E0D6A562EAAD76100187B60 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0D6A552EAAD76100187B60 /* AddChannelVC.xib */; };
+		1E0D6A572EAAD76100187B60 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A542EAAD76100187B60 /* AddChannelVC.swift */; };
 		1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */; };
 		1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */; };
 		1E4FB6A92D820E6800C0EB13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A82D820E6800C0EB13 /* Base */; };
@@ -44,6 +49,11 @@
 		1E0D6A472EA6D93900187B60 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCViewController.swift; sourceTree = "<group>"; };
 		1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVCViewController.xib; sourceTree = "<group>"; };
+		1E0D6A4E2EAAB5BE00187B60 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		1E0D6A502EAAB5ED00187B60 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		1E0D6A522EAAC65A00187B60 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		1E0D6A542EAAD76100187B60 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		1E0D6A552EAAD76100187B60 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		1E4FB69E2D820E6800C0EB13 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +95,7 @@
 			children = (
 				1E0D6A3D2E9C52E500187B60 /* AuthService.swift */,
 				1E0D6A412EA194CE00187B60 /* UserDataService.swift */,
+				1E0D6A4E2EAAB5BE00187B60 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -93,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */,
+				1E0D6A552EAAD76100187B60 /* AddChannelVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -154,6 +166,7 @@
 				1E0D6A382E999E5600187B60 /* CreateAccountVC.swift */,
 				1E0D6A432EA2B36B00187B60 /* AvatarPickerVC.swift */,
 				1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */,
+				1E0D6A542EAAD76100187B60 /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 				1E0D6A3F2E9D87F200187B60 /* RoundedButton.swift */,
 				1E0D6A452EA2B5A300187B60 /* AvatarCell.swift */,
 				1E0D6A472EA6D93900187B60 /* CircleImage.swift */,
+				1E0D6A522EAAC65A00187B60 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +186,7 @@
 		1E4FB6BC2D873B0100C0EB13 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E0D6A502EAAB5ED00187B60 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0D6A562EAAD76100187B60 /* AddChannelVC.xib in Resources */,
 				1E4FB6AB2D820E6900C0EB13 /* Assets.xcassets in Resources */,
 				1E0D6A4C2EA812A100187B60 /* ProfileVCViewController.xib in Resources */,
 				1E4FB6AE2D820E6900C0EB13 /* Base in Resources */,
@@ -320,13 +336,17 @@
 				1E0D6A462EA2B5A300187B60 /* AvatarCell.swift in Sources */,
 				1E4FB6BE2D873B2E00C0EB13 /* ChatVC.swift in Sources */,
 				1E0D6A372E99939D00187B60 /* LoginVC.swift in Sources */,
+				1E0D6A4F2EAAB5BE00187B60 /* MessageService.swift in Sources */,
+				1E0D6A512EAAB5ED00187B60 /* Channel.swift in Sources */,
 				1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */,
 				1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */,
+				1E0D6A532EAAC65A00187B60 /* ChannelCell.swift in Sources */,
 				1E0D6A392E999E5600187B60 /* CreateAccountVC.swift in Sources */,
 				1E0D6A402E9D87F200187B60 /* RoundedButton.swift in Sources */,
 				1E0D6A332E998B3300187B60 /* Constants.swift in Sources */,
 				1E0D6A3E2E9C52E500187B60 /* AuthService.swift in Sources */,
 				1E4FB6B92D87369400C0EB13 /* SWRevealViewController.m in Sources */,
+				1E0D6A572EAAD76100187B60 /* AddChannelVC.swift in Sources */,
 				1E4FB6C02D873B3E00C0EB13 /* ChannelVC.swift in Sources */,
 				1E0D6A442EA2B36B00187B60 /* AvatarPickerVC.swift in Sources */,
 				1E0D6A482EA6D93900187B60 /* CircleImage.swift in Sources */,
