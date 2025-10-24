@@ -10,6 +10,7 @@ import Foundation
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
 //URL Constants
+let BASE_URL = "http://localhost:3005"
 let URL_REGISTER = "http://localhost:3005/v1/account/register"
 let URL_LOGIN = "http://localhost:3005/v1/account/login"
 let URL_USER_ADD = "http://localhost:3005/v1/user/add"
@@ -21,6 +22,9 @@ let smackPurplePlaceholder = #colorLiteral(red: 0.2588235294, green: 0.329411764
 
 //Notification
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUSerDataChanged")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("chanelSelected")
+
 
 //Segues
 let TO_LOGIN = "toLogin"
