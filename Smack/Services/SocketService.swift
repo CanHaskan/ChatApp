@@ -21,7 +21,6 @@ class SocketService: NSObject {
         super.init()
     }
     
-    // MARK: - Connection Controls
     func establishConnection() {
         socket.on(clientEvent: .connect) { _, _ in
         }
@@ -32,10 +31,8 @@ class SocketService: NSObject {
         socket.disconnect()
     }
     
-    // MARK: - Channel Operations
     func addChannel(channelName: String, channelDescription: String, completion: @escaping CompletionHandler) {
         guard socket.status == .connected else {
-            // Bağlantı kopuksa yeniden bağlanmayı dene
             socket.once(clientEvent: .connect) { _, _ in
                 self.socket.emit("newChannel", channelName, channelDescription)
                 completion(true)
@@ -48,7 +45,6 @@ class SocketService: NSObject {
         completion(true)
     }
     
-    // MARK: - Channel Listener
     func getChannel(completion: @escaping CompletionHandler) {
         socket.on("channelCreated") { dataArray, _ in
             guard
@@ -61,5 +57,11 @@ class SocketService: NSObject {
             MessageService.instance.channels.append(newChannel)
             completion(true)
         }
+    }
+    
+    func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompletionHandler) {
+        let user = UserDataService.instance
+        socket.emit("newMessage", messageBody, userId, channelId, user.name, user.avatarName, user.avatarColor)
+        completion(true)
     }
 }
