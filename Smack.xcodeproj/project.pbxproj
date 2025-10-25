@@ -27,6 +27,7 @@
 		1E0D6A592EABB98200187B60 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A582EABB98200187B60 /* SocketService.swift */; };
 		1E0D6A5B2EABFB6E00187B60 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5A2EABFB6E00187B60 /* Message.swift */; };
 		1E0D6A5D2EAC2C6300187B60 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5C2EAC2C6300187B60 /* KeyboardBoundView.swift */; };
+		1E0D6A5F2EAD64CF00187B60 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5E2EAD64CF00187B60 /* MessageCell.swift */; };
 		1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */; };
 		1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */; };
 		1E4FB6A92D820E6800C0EB13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A82D820E6800C0EB13 /* Base */; };
@@ -60,6 +61,7 @@
 		1E0D6A582EABB98200187B60 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		1E0D6A5A2EABFB6E00187B60 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1E0D6A5C2EAC2C6300187B60 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		1E0D6A5E2EAD64CF00187B60 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		1E4FB69E2D820E6800C0EB13 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				1E0D6A472EA6D93900187B60 /* CircleImage.swift */,
 				1E0D6A522EAAC65A00187B60 /* ChannelCell.swift */,
 				1E0D6A5C2EAC2C6300187B60 /* KeyboardBoundView.swift */,
+				1E0D6A5E2EAD64CF00187B60 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				1E0D6A332E998B3300187B60 /* Constants.swift in Sources */,
 				1E0D6A592EABB98200187B60 /* SocketService.swift in Sources */,
 				1E0D6A3E2E9C52E500187B60 /* AuthService.swift in Sources */,
+				1E0D6A5F2EAD64CF00187B60 /* MessageCell.swift in Sources */,
 				1E4FB6B92D87369400C0EB13 /* SWRevealViewController.m in Sources */,
 				1E0D6A5B2EABFB6E00187B60 /* Message.swift in Sources */,
 				1E0D6A572EAAD76100187B60 /* AddChannelVC.swift in Sources */,
