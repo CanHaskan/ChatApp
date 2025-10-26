@@ -7,7 +7,16 @@
 
 import Foundation
 
+// Commands for mongodb
+//canhaskan@Cans-MacBook-Pro mac-chat-api % brew services stop mongodb-community@7.0
+//canhaskan@Cans-MacBook-Pro mac-chat-api % brew services start mongodb-community@7.0
+//canhaskan@Cans-MacBook-Pro mac-chat-api % npm run dev
+
+
 typealias CompletionHandler = (_ Success: Bool) -> ()
+
+//telefondan simulator icin terminal -> ifconfig | grep inet cikan ip yi kopyala
+//urlyi http://ip:3005 etc olarak degistir
 
 //URL Constants
 let BASE_URL = "http://localhost:3005"
