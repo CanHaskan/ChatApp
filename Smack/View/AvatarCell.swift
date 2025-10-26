@@ -12,8 +12,6 @@ enum AvatarType {
     case light
 }
 
-
-
 class AvatarCell: UICollectionViewCell {
     
     @IBOutlet weak var avatarImg: UIImageView!

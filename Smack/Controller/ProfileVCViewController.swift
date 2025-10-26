@@ -33,8 +33,6 @@ class ProfileVCViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    
-    
     @IBAction func closeModalPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -44,6 +42,4 @@ class ProfileVCViewController: UIViewController {
         NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
         dismiss(animated: true, completion: nil)        
     }
-    
-
 }

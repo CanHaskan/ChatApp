@@ -15,7 +15,6 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var timeStampLbl: UILabel!
     @IBOutlet weak var messageBodyLbl: UILabel!
     
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,8 +25,5 @@ class MessageCell: UITableViewCell {
         userNameLbl.text = message.userName
         userImg.image = UIImage(named: message.userAvatar)
         userImg.backgroundColor = UserDataService.instance.returnUIColor(components: message.userAvatarColor)
-        
-        
     }
-
 }

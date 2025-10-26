@@ -9,7 +9,6 @@ import UIKit
 
 class LoginVC: UIViewController {
     
-    
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
@@ -18,7 +17,6 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         setUpView()
     }
-    
     
     @IBAction func loginPressef(_ sender: Any) {
         spinner.isHidden = false
@@ -65,6 +63,4 @@ class LoginVC: UIViewController {
         usernameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
         passwordTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedString.Key.foregroundColor: smackPurplePlaceholder])
     }
-
-    
 }

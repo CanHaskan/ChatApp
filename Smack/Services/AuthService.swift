@@ -91,13 +91,9 @@ class AuthService {
                     completion(false)
                     debugPrint(response.result.error as Any)
                 }
-                
             }
-            
         }
-        
     }
-    
     
     func createUser(name: String, email: String, avatarName: String, avatarColor: String,
                 completion: @escaping CompletionHandler) {
@@ -138,8 +134,6 @@ class AuthService {
             }
         }
     }
-
-    
     
     func setUserInfo(data: Data) {
         let json = JSON(data: data)
@@ -151,15 +145,6 @@ class AuthService {
     
         UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
     
     

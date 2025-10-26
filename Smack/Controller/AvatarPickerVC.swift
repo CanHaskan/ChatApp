@@ -9,8 +9,6 @@ import UIKit
 
 class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    
-    
     //Otulets
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var segmentControl: UISegmentedControl!
@@ -22,7 +20,6 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
-
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -38,7 +35,6 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
             cell.configureCell(index: indexPath.item, type: avatarType)
             return cell
         }
-        
         return AvatarCell()
     }
     
@@ -60,7 +56,6 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
             UserDataService.instance.setAvatarName(avatarName: "light\(indexPath.item)")
         }
         NotificationCenter.default.post(name: Notification.Name("avatarChanged"), object: nil)
-
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -76,7 +71,4 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         collectionView.reloadData()
     }
-    
-    
-    
 }

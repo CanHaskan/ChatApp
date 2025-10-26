@@ -38,7 +38,6 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 self.tableView.reloadData()
             }
         }
-
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -85,7 +84,6 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             userImg.backgroundColor = UIColor.clear
             tableView.reloadData()
         }
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -121,7 +119,4 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         NotificationCenter.default.post(name: NOTIF_CHANNEL_SELECTED, object: nil)
         self.revealViewController().revealToggle(animated: true)
     }
-    
-   
-
 }

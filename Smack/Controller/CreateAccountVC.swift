@@ -21,15 +21,11 @@ class CreateAccountVC: UIViewController {
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
     var bgColor : UIColor?
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         NotificationCenter.default.addObserver(self, selector: #selector(avatarChanged), name: Notification.Name("avatarChanged"), object: nil)
         setupView()
-
-
     }
     
     @objc func avatarChanged() {
@@ -44,8 +40,6 @@ class CreateAccountVC: UIViewController {
     deinit {
         NotificationCenter.default.removeObserver(self, name: Notification.Name("avatarChanged"), object: nil)
     }
-
-    
     
     @IBAction func createAccntPressed(_ sender: Any) {
         spinner.isHidden = false
@@ -70,7 +64,6 @@ class CreateAccountVC: UIViewController {
                             }
                         })
                     }
-
                 })
             }
         }
@@ -105,12 +98,9 @@ class CreateAccountVC: UIViewController {
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountVC.handleTap))
         view.addGestureRecognizer(tap)
-        
     }
     
     @objc func handleTap() {
         view.endEditing(true)
     }
-    
-
 }

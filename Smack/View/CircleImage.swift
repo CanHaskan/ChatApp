@@ -23,7 +23,4 @@ class CircleImage: UIImageView {
         super.prepareForInterfaceBuilder()
         setupView()
     }
-
-
-
 }
