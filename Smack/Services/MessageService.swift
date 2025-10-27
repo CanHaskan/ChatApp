@@ -24,6 +24,7 @@ class MessageService {
             if response.result.error == nil {
                 guard let data = response.data else {return}
                 if let json = JSON(data: data).array {
+                    self.clearChannels()
                     for item in json {
                         let name = item["name"].stringValue
                         let channelDescription = item["description"].stringValue

@@ -7,6 +7,7 @@
 
 import UIKit
 import SocketIO
+import Alamofire
 
 class SocketService: NSObject {
     
@@ -59,11 +60,40 @@ class SocketService: NSObject {
         }
     }
     
+//    func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompletionHandler) {
+//        let user = UserDataService.instance
+//        socket.emit("newMessage", messageBody, userId, channelId, user.name, user.avatarName, user.avatarColor)
+//        completion(true)
+//    }
     func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompletionHandler) {
         let user = UserDataService.instance
+
+        // 1️⃣ Önce Socket.io üzerinden gönder
         socket.emit("newMessage", messageBody, userId, channelId, user.name, user.avatarName, user.avatarColor)
-        completion(true)
+        
+        // 2️⃣ Sonra API'ye de kaydet
+        let body: [String: Any] = [
+            "messageBody": messageBody,
+            "userId": userId,
+            "channelId": channelId,
+            "userName": user.name,
+            "userAvatar": user.avatarName,
+            "userAvatarColor": user.avatarColor
+        ]
+        
+        Alamofire.request("\(BASE_URL)/v1/message/add",
+                          method: .post,
+                          parameters: body,
+                          encoding: JSONEncoding.default,
+                          headers: BEARER_HEADER).responseJSON { response in
+            if response.result.error == nil {
+                completion(true)
+            } else {
+                completion(false)
+            }
+        }
     }
+
     
     func getChatMessage(completion: @escaping (_ newMessage: Message) -> Void) {
         socket.on("messageCreated") { dataArray, ack in

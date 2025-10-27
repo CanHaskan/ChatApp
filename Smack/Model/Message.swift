@@ -15,5 +15,6 @@ struct Message {
     public private(set) var userAvatarColor: String!
     public private(set) var id: String!
     public private(set) var timestamp: String!
+    public private(set) var userId: String!
 
 }

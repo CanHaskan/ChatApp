@@ -28,6 +28,8 @@
 		1E0D6A5B2EABFB6E00187B60 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5A2EABFB6E00187B60 /* Message.swift */; };
 		1E0D6A5D2EAC2C6300187B60 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5C2EAC2C6300187B60 /* KeyboardBoundView.swift */; };
 		1E0D6A5F2EAD64CF00187B60 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A5E2EAD64CF00187B60 /* MessageCell.swift */; };
+		1E0D6A622EB0141700187B60 /* ChangeUsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D6A602EB0141700187B60 /* ChangeUsernameVC.swift */; };
+		1E0D6A632EB0141700187B60 /* ChangeUsernameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0D6A612EB0141700187B60 /* ChangeUsernameVC.xib */; };
 		1E4FB6A22D820E6800C0EB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */; };
 		1E4FB6A42D820E6800C0EB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */; };
 		1E4FB6A92D820E6800C0EB13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FB6A82D820E6800C0EB13 /* Base */; };
@@ -62,6 +64,8 @@
 		1E0D6A5A2EABFB6E00187B60 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1E0D6A5C2EAC2C6300187B60 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		1E0D6A5E2EAD64CF00187B60 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		1E0D6A602EB0141700187B60 /* ChangeUsernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUsernameVC.swift; sourceTree = "<group>"; };
+		1E0D6A612EB0141700187B60 /* ChangeUsernameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeUsernameVC.xib; sourceTree = "<group>"; };
 		1E4FB69E2D820E6800C0EB13 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FB6A12D820E6800C0EB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FB6A32D820E6800C0EB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 			children = (
 				1E0D6A4A2EA812A100187B60 /* ProfileVCViewController.xib */,
 				1E0D6A552EAAD76100187B60 /* AddChannelVC.xib */,
+				1E0D6A612EB0141700187B60 /* ChangeUsernameVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				1E0D6A432EA2B36B00187B60 /* AvatarPickerVC.swift */,
 				1E0D6A492EA812A100187B60 /* ProfileVCViewController.swift */,
 				1E0D6A542EAAD76100187B60 /* AddChannelVC.swift */,
+				1E0D6A602EB0141700187B60 /* ChangeUsernameVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0D6A632EB0141700187B60 /* ChangeUsernameVC.xib in Resources */,
 				1E0D6A562EAAD76100187B60 /* AddChannelVC.xib in Resources */,
 				1E4FB6AB2D820E6900C0EB13 /* Assets.xcassets in Resources */,
 				1E0D6A4C2EA812A100187B60 /* ProfileVCViewController.xib in Resources */,
@@ -345,6 +352,7 @@
 				1E0D6A422EA194CE00187B60 /* UserDataService.swift in Sources */,
 				1E0D6A4B2EA812A100187B60 /* ProfileVCViewController.swift in Sources */,
 				1E0D6A5D2EAC2C6300187B60 /* KeyboardBoundView.swift in Sources */,
+				1E0D6A622EB0141700187B60 /* ChangeUsernameVC.swift in Sources */,
 				1E0D6A302E97DF1D00187B60 /* GradientView.swift in Sources */,
 				1E0D6A462EA2B5A300187B60 /* AvatarCell.swift in Sources */,
 				1E4FB6BE2D873B2E00C0EB13 /* ChatVC.swift in Sources */,

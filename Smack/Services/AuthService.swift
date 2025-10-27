@@ -121,6 +121,61 @@ class AuthService {
         }
     }
     
+    func updateUserName(newName: String, completion: @escaping CompletionHandler) {
+        let userId = UserDataService.instance.id
+        let url = "\(URL_USER_UPDATE)\(userId)"
+        
+        let body: [String: Any] = [
+            "name": newName
+        ]
+        
+        Alamofire.request(url, method: .put, parameters: body, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { response in
+            
+            if response.result.error == nil {
+                guard let data = response.data else { return completion(false) }
+                
+                do {
+                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                        
+                        if let updatedUser = json["updatedUser"] as? [String: Any],
+                           let updatedName = updatedUser["name"] as? String {
+                            
+                            UserDataService.instance.setUserData(
+                                id: UserDataService.instance.id,
+                                color: UserDataService.instance.avatarColor,
+                                avatarName: UserDataService.instance.avatarName,
+                                email: UserDataService.instance.email,
+                                name: updatedName
+                            )
+                            NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+                            completion(true)
+                            return
+                        }
+                        
+                        if let updatedName = json["name"] as? String {
+                            UserDataService.instance.setUserData(
+                                id: UserDataService.instance.id,
+                                color: UserDataService.instance.avatarColor,
+                                avatarName: UserDataService.instance.avatarName,
+                                email: UserDataService.instance.email,
+                                name: updatedName
+                            )
+                            NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+                            completion(true)
+                            return
+                        }
+                    }
+                } catch {
+                    print("❌ JSON parse error: \(error)")
+                }
+            } else {
+                debugPrint(response.result.error as Any)
+            }
+            completion(false)
+        }
+    }
+
+    
     func findUserByEmail(completion: @escaping CompletionHandler) {
 
         Alamofire.request("\(URL_USER_BY_EMAIL)/\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in

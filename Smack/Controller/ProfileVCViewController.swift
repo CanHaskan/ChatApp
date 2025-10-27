@@ -11,6 +11,7 @@ class ProfileVCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        NotificationCenter.default.addObserver(self, selector: #selector(userDataDidChange(_:)), name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
         setupView()
     }
     
@@ -29,6 +30,10 @@ class ProfileVCViewController: UIViewController {
         bgView.addGestureRecognizer(closeTouch)
     }
     
+    @objc func userDataDidChange(_ notif: Notification) {
+        userName.text = UserDataService.instance.name
+    }
+    
     @objc func closeTap(_ recognicer: UITapGestureRecognizer) {
         dismiss(animated: true, completion: nil)
     }
@@ -42,4 +47,10 @@ class ProfileVCViewController: UIViewController {
         NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
         dismiss(animated: true, completion: nil)        
     }
+    
+    @IBAction func changeUsernamePressed(_ sender: Any) {
+        let changeUsernameVC = ChangeUsernameVC(nibName: "ChangeUsernameVC", bundle: nil)
+        present(changeUsernameVC, animated: true, completion: nil)
+    }
+
 }
