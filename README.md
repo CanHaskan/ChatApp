@@ -77,7 +77,7 @@ ChatApp.xcodeproj
 |----------|-----------------|
 | ![Profile](assets/screenshots/profile.png) | ![Change Username](assets/screenshots/change-username.png) |
 
-### AddChannelVC
+### XIB/AddChannelVC
 ![Create Channel](assets/screenshots/create-channel.png)
 
 ## 📂 Project Structure
