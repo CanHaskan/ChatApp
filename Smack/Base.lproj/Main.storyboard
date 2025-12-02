@@ -103,12 +103,6 @@
                                                         <constraint firstAttribute="height" constant="50" id="oT9-bD-SAJ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.33 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nR-FX-RfR">
-                                                    <rect key="frame" x="101" y="1.3333333333333339" width="65" height="19.333333333333329"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHP-aH-vZ9">
                                                     <rect key="frame" x="62" y="30" width="299" height="17"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
@@ -124,22 +118,18 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="x5o-G8-wE2" firstAttribute="leading" secondItem="Hjf-iK-AxR" secondAttribute="leading" id="5Bh-Yy-bOo"/>
-                                                <constraint firstItem="DHP-aH-vZ9" firstAttribute="top" secondItem="0nR-FX-RfR" secondAttribute="bottom" constant="9.3333333333333357" id="7uY-dW-vdv"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="DHP-aH-vZ9" secondAttribute="bottom" constant="15" id="XIm-Gw-IRE"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="DHP-aH-vZ9" secondAttribute="trailing" constant="12" id="fr8-tM-CZQ"/>
                                                 <constraint firstItem="mpf-0x-EqU" firstAttribute="top" secondItem="x5o-G8-wE2" secondAttribute="top" id="gQr-bE-F1k"/>
                                                 <constraint firstItem="DHP-aH-vZ9" firstAttribute="leading" secondItem="x5o-G8-wE2" secondAttribute="trailing" constant="12" id="goZ-cP-p7e"/>
-                                                <constraint firstItem="0nR-FX-RfR" firstAttribute="centerY" secondItem="mpf-0x-EqU" secondAttribute="centerY" id="jWD-Eo-SbL"/>
                                                 <constraint firstItem="x5o-G8-wE2" firstAttribute="top" secondItem="Hjf-iK-AxR" secondAttribute="top" id="kOt-ed-YTY"/>
                                                 <constraint firstItem="DHP-aH-vZ9" firstAttribute="top" secondItem="mpf-0x-EqU" secondAttribute="bottom" constant="8" id="lSG-Vl-cPB"/>
-                                                <constraint firstItem="0nR-FX-RfR" firstAttribute="leading" secondItem="mpf-0x-EqU" secondAttribute="trailing" constant="6" id="vQX-HK-kQr"/>
                                                 <constraint firstItem="DHP-aH-vZ9" firstAttribute="centerY" secondItem="Hjf-iK-AxR" secondAttribute="centerY" id="x4w-G2-Dwc"/>
                                                 <constraint firstItem="mpf-0x-EqU" firstAttribute="leading" secondItem="x5o-G8-wE2" secondAttribute="trailing" constant="12" id="yD2-uo-TKp"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="messageBodyLbl" destination="DHP-aH-vZ9" id="QzK-Wx-iEq"/>
-                                            <outlet property="timeStampLbl" destination="0nR-FX-RfR" id="u4q-RM-dxf"/>
                                             <outlet property="userImg" destination="x5o-G8-wE2" id="vlF-rg-lU1"/>
                                             <outlet property="userNameLbl" destination="mpf-0x-EqU" id="StS-Zw-Qw8"/>
                                         </connections>
