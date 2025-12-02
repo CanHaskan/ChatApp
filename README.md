@@ -73,7 +73,7 @@ ChatApp.xcodeproj
 | ![Channels](assets/screenshots/channels.png) | ![Chat](assets/screenshots/chat.png) |
 
 ### Profile & Change Username
-| ProfileVC | ChangeUsernameVC |
+| XIB/ProfileVC | XIB/ChangeUsernameVC |
 |----------|-----------------|
 | ![Profile](assets/screenshots/profile.png) | ![Change Username](assets/screenshots/change-username.png) |
 
