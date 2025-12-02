@@ -63,21 +63,21 @@ ChatApp.xcodeproj
 ## 📸 Screenshots
 
 ### Login & Register
-| Login | Register |
+| LoginVC | CreateAccountVC |
 |-------|----------|
 | ![Login](assets/screenshots/login.png) | ![Register](assets/screenshots/register.png) |
 
 ### Channels & Chat
-| Channels | Chat |
+| ChannelVC | ChatVC |
 |----------|------|
 | ![Channels](assets/screenshots/channels.png) | ![Chat](assets/screenshots/chat.png) |
 
 ### Profile & Change Username
-| Profile | Change Username |
+| ProfileVC | ChangeUsernameVC |
 |----------|-----------------|
 | ![Profile](assets/screenshots/profile.png) | ![Change Username](assets/screenshots/change-username.png) |
 
-### Create Channel
+### AddChannelVC
 ![Create Channel](assets/screenshots/create-channel.png)
 
 ## 📂 Project Structure
